@@ -6,12 +6,13 @@
 public class Card {
 
 	/**
-	 * A String storing the value of the card: 2-10 or Jack, Queen, King, Ace.
+	 * A String storing the value of the card: 2-10 or Jack, Queen, King, or 
+	 * Ace.
 	 */
 	private String value;
 
 	/**
-	 * A String storing the suit of the card: Hearts, Clubs, Diamonds, Spades.
+	 * A String storing the suit of the card: Hearts, Clubs, Diamonds, or Spades.
 	 */
 	private String suit;
 
@@ -36,7 +37,7 @@ public class Card {
 
 	/**
 	 * This method returns the value of a card as an integer,
-	 *  which will be used for scoring.	
+	 * which will be used for scoring number cards.	
 	 * @return
 	 */
 	public int getValue() {

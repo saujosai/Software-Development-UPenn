@@ -1,5 +1,6 @@
 /**
- * This class creates Blackjack game object and calls the play method to start the game.
+ * This class creates a Blackjack game object and calls the play method to
+ * start the game.
  * @author User
  *
  */
@@ -9,6 +10,5 @@ public class BlackjackSolitaireRunner {
 		BlackjackSolitaire bjs = new BlackjackSolitaire();
 		bjs.play();
 	}
-	
 
 }
