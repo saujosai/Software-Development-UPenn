@@ -1,1 +1,7 @@
-This is a card game that displays in the console, updating after each move. It uses complex scoring logic.
+#Blackjack Solitaire
+This is a card game that displays in the console, updating after each move. It was written as part of a software development course at the University of Pennsylvania. It consists of multiple classes like one for each individual card, a deck class to store the cards, and a table class where the cards are played. 
+#How To Play
+Download or pull all the files from the repository. 
+Open them in Eclipse IDE as a new project.
+Run the BlackjackRunner class.
+
