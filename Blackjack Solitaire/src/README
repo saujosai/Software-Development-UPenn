@@ -1,7 +1,11 @@
 #Blackjack Solitaire
-This is a card game that displays in the console, updating after each move. It was written as part of a software development course at the University of Pennsylvania. It consists of multiple classes like one for each individual card, a deck class to store the cards, and a table class where the cards are played. 
-#How To Play
+This is a card game that displays in the console, updating after each move. It was written as part of a software development course at the University of Pennsylvania. It consists of multiple classes like one for each individual card, a deck class to store the cards, and a table class where the cards are played. When all spaces are used, the table is passed to a scorer class that splits the table into separate hands and tallies them all up. 
+
+#How To Run
 Download or pull all the files from the repository. 
 Open them in Eclipse IDE as a new project.
-Run the BlackjackRunner class.
+Run the BlackjackSolitaireRunner class.
+
+#How to Play
+As each card is dealt, you either choose an open space from 1-16, or discard in one of 4 spaces, 17-20. Each row and column is counted as a separate hand, and the objective is get each hand as close as possible to 21 without going over ("going bust"). Each card is worth its numerical value, face cards are counted as 10, and Aces count as 11 unless that will make the hand go bust, in which case they are counted as 1. (Note: The same Ace can count as 1 in a column hand and 11 in a row hand.) 
 
